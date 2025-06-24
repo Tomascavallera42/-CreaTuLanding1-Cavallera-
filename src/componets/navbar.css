@@ -1,0 +1,16 @@
+.navbar{
+    background-color: rgba(21, 21, 148, 0.685);
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    width: 100px; height: 100px; justify-content: baseline;
+}
+.servicios{
+    display: flex;
+}
+.servicios li{
+    margin-left: 20px;
+}.contserv{
+    display: flex; align-items: center;
+}
