@@ -1,0 +1,30 @@
+.checkout-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.checkout-form input {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.checkout-form button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.order-success {
+  text-align: center;
+  margin-top: 50px;
+}
