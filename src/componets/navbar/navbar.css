@@ -1,16 +1,31 @@
 .navbar{
     background-color: rgba(21, 21, 148, 0.685);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; 
+    align-items: center;
 }
 .logo{
     width: 100px; height: 100px; justify-content: baseline;
 }
 .servicios{
-    display: flex;
+    display: flex;     list-style:none;
 }
-.servicios li{
-    margin-left: 20px;
-}.contserv{
-    display: flex; align-items: center;
+.servicios .links{
+    margin: 0 5px;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+    font-weight: 400;
+    list-style:none;
+    text-decoration: none;
+
+
+
+}
+.contserv{
+    display: flex; align-items: center; justify-content: center;
+}
+.servicios .links:hover{
+    cursor: pointer;
+    border-bottom: 5px solid darkcyan;
 }
